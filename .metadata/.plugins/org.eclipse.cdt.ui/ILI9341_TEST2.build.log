@@ -1,0 +1,10 @@
+23:43:44 **** Build of configuration Debug for project ILI9341_TEST2 ****
+make -j8 all 
+arm-none-eabi-size   ILI9341_TEST2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28892	    484	   2052	  31428	   7ac4	ILI9341_TEST2.elf
+Finished building: default.size.stdout
+ 
+
+23:43:45 Build Finished. 0 errors, 0 warnings. (took 647ms)
+

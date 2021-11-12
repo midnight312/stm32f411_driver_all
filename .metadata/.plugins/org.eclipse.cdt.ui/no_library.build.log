@@ -1,0 +1,77 @@
+00:32:39 **** Incremental Build of configuration Debug for project no_library ****
+make -j8 all 
+arm-none-eabi-gcc "../Prephiral/Src/adc1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/adc1.d" -MT"Prephiral/Src/adc1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/adc1.o"
+arm-none-eabi-gcc "../Prephiral/Src/exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/exti.d" -MT"Prephiral/Src/exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/exti.o"
+arm-none-eabi-gcc "../Prephiral/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/gpio.d" -MT"Prephiral/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/gpio.o"
+arm-none-eabi-gcc "../Prephiral/Src/pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/pwr.d" -MT"Prephiral/Src/pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/pwr.o"
+arm-none-eabi-gcc "../Prephiral/Src/rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/rcc.d" -MT"Prephiral/Src/rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/rcc.o"
+arm-none-eabi-gcc "../Prephiral/Src/spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/spi.d" -MT"Prephiral/Src/spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/spi.o"
+arm-none-eabi-gcc "../Prephiral/Src/timer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/timer.d" -MT"Prephiral/Src/timer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/timer.o"
+arm-none-eabi-gcc "../Prephiral/Src/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Prephiral/Src/uart.d" -MT"Prephiral/Src/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Prephiral/Src/uart.o"
+../Prephiral/Src/spi.c: In function 'spi_config':
+../Prephiral/Src/spi.c:51:20: warning: unused variable 'tempRd' [-Wunused-variable]
+   51 |  volatile uint32_t tempRd = SPI1->SR;
+      |                    ^~~~~~
+../Prephiral/Src/spi.c: In function 'spi_transmit':
+../Prephiral/Src/spi.c:65:13: warning: assignment to 'uint32_t' {aka 'volatile long unsigned int'} from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   65 |    SPI1->DR = pData;
+      |             ^
+../Prephiral/Src/spi.c:78:20: warning: variable 'tempRead' set but not used [-Wunused-but-set-variable]
+   78 |  volatile uint32_t tempRead = SPI1->DR;
+      |                    ^~~~~~~~
+../Prephiral/Src/spi.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+   80 | }
+      | ^
+../Prephiral/Src/spi.c: In function 'spi_receive':
+../Prephiral/Src/spi.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+../Prephiral/Src/uart.c: In function 'uart_UART1_transmit':
+../Prephiral/Src/uart.c:100:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  100 |  while(USART1->SR & USART_SR_TC != 1)
+      |                   ^
+../Prephiral/Src/uart.c: In function 'uart_translate':
+../Prephiral/Src/uart.c:127:19: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  127 |  while(USART1->SR & USART_SR_TC != 1)
+      |                   ^
+../Prephiral/Src/uart.c: In function 'uart_UART1_receive':
+../Prephiral/Src/uart.c:161:1: warning: control reaches end of non-void function [-Wreturn-type]
+  161 | }
+      | ^
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411retx.d" -MT"Core/Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411retx.o" "../Core/Startup/startup_stm32f411retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/printf_redirect.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Prephiral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/Drivers/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/printf_redirect.d" -MT"Core/Src/printf_redirect.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/printf_redirect.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:35:7: warning: assignment to 'uint8_t *' {aka 'unsigned char *'} from 'char' makes pointer from integer without a cast [-Wint-conversion]
+   35 |  x[0] = c;
+      |       ^
+../Core/Src/main.c:43:3: warning: implicit declaration of function 'uart_translate' [-Wimplicit-function-declaration]
+   43 |   uart_translate(*x,100);
+      |   ^~~~~~~~~~~~~~
+../Core/Src/main.c:33:10: warning: variable 'rBuft' set but not used [-Wunused-but-set-variable]
+   33 |  uint8_t rBuft[8];
+      |          ^~~~~
+../Core/Src/main.c:32:10: warning: unused variable 'tBuft' [-Wunused-variable]
+   32 |  uint8_t tBuft[8];
+      |          ^~~~~
+../Core/Src/main.c: In function 'ADC_IRQHandler':
+../Core/Src/main.c:60:33: warning: bitwise comparison always evaluates to true [-Wtautological-compare]
+   60 |  if(((ADC1->SR) & (ADC_SR_EOC)) != 1)
+      |                                 ^~
+arm-none-eabi-gcc -o "no_library.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/thanh/STM32CubeIDE/workspace_1.6.1/no_library/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="no_library.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: no_library.elf
+ 
+arm-none-eabi-size   no_library.elf 
+arm-none-eabi-objdump -h -S  no_library.elf  > "no_library.list"
+arm-none-eabi-objcopy  -O binary  no_library.elf  "no_library.bin"
+   text	   data	    bss	    dec	    hex	filename
+   2596	      8	   1576	   4180	   1054	no_library.elf
+Finished building: default.size.stdout
+ 
+Finished building: no_library.bin
+ 
+Finished building: no_library.list
+ 
+
+00:32:40 Build Finished. 0 errors, 13 warnings. (took 1s.29ms)
+

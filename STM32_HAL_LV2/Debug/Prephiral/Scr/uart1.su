@@ -1,0 +1,2 @@
+uart1.c:16:6:uart_UART1_GPIO_config	40	static
+uart1.c:58:7:uart_UAR1_config	8	static

@@ -1,0 +1,5 @@
+crc.c:14:6:crc_enable	8	static
+crc.c:21:6:crc_disable	4	static
+crc.c:29:6:crc_reset	4	static
+crc.c:37:6:crc_accumulate	16	static
+crc.c:45:10:crc_read	4	static

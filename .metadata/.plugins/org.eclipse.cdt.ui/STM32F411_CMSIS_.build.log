@@ -1,0 +1,24 @@
+22:17:46 **** Incremental Build of configuration Debug for project STM32F411_CMSIS_ ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411xE -c -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/STM32F411_CMSIS_/Core/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/STM32F411_CMSIS_/Peripheral/Inc" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/STM32F411_CMSIS_/display" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/STM32F411_CMSIS_/Display/ILI9341" -I"/home/thanh/STM32CubeIDE/workspace_1.6.1/STM32F411_CMSIS_/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:86:10: warning: unused variable 'rBuff' [-Wunused-variable]
+   86 |  uint8_t rBuff = 0x00;
+      |          ^~~~~
+arm-none-eabi-gcc -o "STM32F411_CMSIS_.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/thanh/STM32CubeIDE/workspace_1.6.1/STM32F411_CMSIS_/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F411_CMSIS_.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F411_CMSIS_.elf
+ 
+arm-none-eabi-objdump -h -S  STM32F411_CMSIS_.elf  > "STM32F411_CMSIS_.list"
+arm-none-eabi-objcopy  -O binary  STM32F411_CMSIS_.elf  "STM32F411_CMSIS_.bin"
+arm-none-eabi-size   STM32F411_CMSIS_.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19972	    472	   1608	  22052	   5624	STM32F411_CMSIS_.elf
+Finished building: default.size.stdout
+Finished building: STM32F411_CMSIS_.bin
+ 
+ 
+Finished building: STM32F411_CMSIS_.list
+ 
+
+22:17:47 Build Finished. 0 errors, 1 warnings. (took 822ms)
+

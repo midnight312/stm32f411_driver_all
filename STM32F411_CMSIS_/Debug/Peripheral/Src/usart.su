@@ -1,0 +1,11 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+usart.c:13:6:usart_USART1_GPIO_config	4	static
+usart.c:38:6:usart_USART1_config	4	static
+usart.c:75:7:usart_USART1_transmit	32	static
+usart.c:106:7:usart_USART1_receive	32	static
+usart.c:128:6:usart_USART1_DMA_config	8	static
+usart.c:217:6:usart_USART1_DMA_transmit	16	static
+usart.c:233:6:usart_USART1_DMA_receive	24	static
+usart.c:253:7:usart_USART1_IT_transmit	24	static
+usart.c:291:7:usart_USART1_IT_receive	16	static

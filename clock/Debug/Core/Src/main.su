@@ -1,0 +1,3 @@
+main.c:4:6:delay	16	static,ignoring_inline_asm
+main.c:28:6:init_all	16	static
+main.c:75:6:main	8	static

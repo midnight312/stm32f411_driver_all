@@ -1,0 +1,8 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+spi.c:20:6:spi_SPI1_GPIO_config	4	static
+spi.c:77:6:spi_SPI1_config	16	static
+spi.c:147:6:spi_SPI1_DMA_config	16	static
+spi.c:268:7:spi_SPI1_transmit	40	static
+spi.c:308:6:spi_SPI1_DMA_transmit	16	static
+spi.c:323:7:spi_SPI1_receive	40	static

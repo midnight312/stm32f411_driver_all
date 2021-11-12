@@ -1,0 +1,88 @@
+#include "main.h"
+
+_Bool extiFlag      = false;
+_Bool stateLed      = false;
+_Bool uartDmaRxFlag = false;
+_Bool uartDmaTxFlag = false;
+
+
+int main(void)
+{
+	//MAX 100 MHZ
+	rcc_HSE_Config();
+	rcc_SYSTICk_config(100000);
+	//Printf to usart1
+	usart_USART1_GPIO_config();
+	usart_USART1_config();
+	usart_USART1_DMA_config;
+	//LED config
+	gpio_LED_config();
+	//BUTTON config
+	//gpio_BUTTON_config();
+	//EXTI PB1 config
+	exti_BP_EXTI();
+
+	printf("program starting ...\n");
+	uint8_t rBuff[10];
+	usart_USART1_DMA_receive(rBuff,5);
+	while(1)
+	{
+		if(uartDmaRxFlag)
+		{
+			uartDmaRxFlag = false;
+			usart_USART1_DMA_transmit(rBuff,5);
+		}
+
+
+	}
+}
+
+
+void EXTI0_IRQHandler(void)
+{
+	NVIC_ClearPendingIRQ(EXTI0_IRQn);
+
+	//Application
+	EXTI->IMR &= ~EXTI_IMR_IM0;
+	extiFlag = true;
+	rcc_msDelay(100);
+	EXTI->PR |= EXTI_PR_PR0;
+}
+
+//UART DMA RX
+void DMA2_Stream7_IRQHandler(void)
+{
+	if(DMA2->HISR & DMA_HISR_TCIF4)
+	{
+		//Disaable DMA
+		DMA2_Stream7->CR &= ~DMA_SxCR_EN;
+		//Clear Flag
+		DMA2->HIFCR |= DMA_HIFCR_CTCIF4;
+		//Notify application
+		uartDmaRxFlag = true;
+	}
+	//Tranfer error
+	if(DMA2->HISR & DMA_HISR_TEIF4)
+	{
+		DMA2->HIFCR |= DMA_HIFCR_CTEIF4;
+	}
+}
+
+//UART DMA TX
+void DMA2_Stream7_IRQHandler(void)
+{
+	if(DMA2->HISR & DMA_HISR_TCIF4)
+	{
+		//Disaable DMA
+		DMA2_Stream7->CR &= ~DMA_SxCR_EN;
+		//Clear Flag
+		DMA2->HIFCR |= DMA_HIFCR_CTCIF4;
+		//Notify application
+		uartDmaTxFlag = true;
+	}
+	//Tranfer error
+	if(DMA2->HISR & DMA_HISR_TEIF4)
+	{
+		DMA2->HIFCR |= DMA_HIFCR_CTEIF4;
+	}
+}

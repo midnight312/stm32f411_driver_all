@@ -1,0 +1,10 @@
+22:11:31 **** Incremental Build of configuration Debug for project ww ****
+make -j8 all 
+arm-none-eabi-size   ww.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33968	    152	   3744	  37864	   93e8	ww.elf
+Finished building: default.size.stdout
+ 
+
+22:11:31 Build Finished. 0 errors, 0 warnings. (took 634ms)
+

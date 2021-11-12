@@ -1,0 +1,13 @@
+tm1637.c:61:6:tm1637_changeDioMode	16	static
+tm1637.c:84:6:tm1637_setCLK	16	static
+tm1637.c:100:6:tm1637_setDIO	16	static
+tm1637.c:116:6:tm1637_getDIO	4	static
+tm1637.c:125:6:tm1637_TWI_start	8	static
+tm1637.c:133:6:tm1637_TWI_ack	8	static
+tm1637.c:142:6:tm1637_TWI_stop	8	static
+tm1637.c:153:6:tm1637_TWI_writeByte	24	static
+tm1637.c:179:6:tm1637_init	16	static
+tm1637.c:190:6:tm1637_writeDigits	24	static
+tm1637.c:218:6:tm1637_setBrightness	16	static
+tm1637.c:231:6:tm1637_setCounter	24	static
+tm1637.c:252:6:tm1637_setClock	24	static

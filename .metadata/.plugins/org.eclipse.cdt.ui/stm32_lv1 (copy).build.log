@@ -1,0 +1,16 @@
+08:00:55 **** Incremental Build of configuration Debug for project stm32_lv1 (copy) ****
+make -j8 all 
+arm-none-eabi-size   stm32_lv1\ (copy).elf 
+/bin/sh: 1: Syntax error: "(" unexpected
+arm-none-eabi-objdump -h -S  stm32_lv1\ (copy).elf  > "stm32_lv1 (copy).list"
+arm-none-eabi-objcopy  -O binary  stm32_lv1\ (copy).elf  "stm32_lv1 (copy).bin"
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:70: default.size.stdout] Error 2
+make: *** Waiting for unfinished jobs....
+make: *** [makefile:75: stm32_lv1 (copy).list] Error 2
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:80: stm32_lv1 (copy).bin] Error 2
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+08:00:56 Build Failed. 4 errors, 0 warnings. (took 684ms)
+

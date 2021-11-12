@@ -1,0 +1,8 @@
+main.c:3:6:init_clock	16	static
+main.c:58:6:init_all	16	static
+main.c:75:6:led_on	24	static
+main.c:84:6:led_off	24	static
+main.c:93:6:systick_start	16	static
+main.c:99:14:get_state_stick	16	static
+main.c:106:6:delay	16	static
+main.c:114:6:main	8	static

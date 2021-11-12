@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;STM32F411_CMSIS_/Drivers/ITC/Modules/UserUart&apos; to &apos;User_Uart&apos;" description="Rename resource &apos;UserUart&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Drivers/ITC/Modules/UserUart" name="User_Uart" stamp="1631453619316" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;STM32F411_CMSIS_/Drivers/ITC/Modules/User_Uart/ip/Usart&apos; to &apos;usart&apos;" description="Rename resource &apos;Usart&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Drivers/ITC/Modules/User_Uart/ip/Usart" name="usart" stamp="1631454300862" updateReferences="true"/>
+</session>

@@ -1,0 +1,2 @@
+i2c.c:13:6:i2c_GPIO_config	32	static
+i2c.c:28:7:i2c_config	4	static

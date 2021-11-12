@@ -1,0 +1,5 @@
+i2c.c:13:6:i2c_I2C1_GPIO_config	4	static
+i2c.c:32:7:i2c_I2C1_config	4	static
+i2c.c:51:7:i2c_I2C1_isSlaveAddressExist	24	static
+i2c.c:86:7:i2c_I2C1_masterTransmit	40	static
+i2c.c:134:7:i2c_I2C1_receiveTransmit	40	static

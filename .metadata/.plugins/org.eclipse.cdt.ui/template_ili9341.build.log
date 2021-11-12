@@ -1,0 +1,10 @@
+21:42:17 **** Incremental Build of configuration Debug for project template_ili9341 ****
+make -j8 all 
+arm-none-eabi-size   template_ili9341.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 165176	     20	   1660	 166856	  28bc8	template_ili9341.elf
+Finished building: default.size.stdout
+ 
+
+21:42:18 Build Finished. 0 errors, 0 warnings. (took 685ms)
+

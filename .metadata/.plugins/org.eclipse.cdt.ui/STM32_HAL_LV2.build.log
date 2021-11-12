@@ -1,0 +1,7 @@
+08:13:55 **** Incremental Build of configuration Default for project STM32_HAL_LV2 ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+08:13:56 Build Failed. 1 errors, 0 warnings. (took 681ms)
+

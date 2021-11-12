@@ -1,0 +1,14 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1724:22:__NVIC_DisableIRQ	16	static,ignoring_inline_asm
+adc1.c:14:6:adc_GPIO_config	4	static
+adc1.c:27:6:adc_singleConfig	24	static
+adc1.c:54:6:adc_start	4	static
+adc1.c:64:6:adc_stop	4	static
+adc1.c:72:7:adc_pollForEndConversion	24	static
+adc1.c:85:10:adc_readValue	4	static
+adc1.c:93:6:adc_enableEOC_IT	8	static
+adc1.c:101:6:adc_disableEOC_IT	8	static
+adc1.c:112:6:adc_multiChanel_config	16	static
+adc1.c:149:6:adc_multichanel_DMA_config	16	static
+adc1.c:198:6:adc_AWD_config	16	static
+adc1.c:219:10:adc_Temperature	16	static

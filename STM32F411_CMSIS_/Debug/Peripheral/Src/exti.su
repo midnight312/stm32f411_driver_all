@@ -1,0 +1,3 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+exti.c:16:6:exti_BP_EXTI	8	static

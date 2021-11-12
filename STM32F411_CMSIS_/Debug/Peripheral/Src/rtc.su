@@ -1,0 +1,6 @@
+rtc.c:13:6:rtc_LSE_config	16	static
+rtc.c:50:6:rtc_config	64	static
+rtc.c:103:6:rtc_setUnixTime	16	static
+rtc.c:111:10:rtc_getUnixTime	4	static
+rtc.c:120:6:rtc_getTimeDate	64	static
+rtc.c:143:6:rtc_setTimeDate	72	static

@@ -1,0 +1,4 @@
+spi.c:6:6:spi_GPIO_config	4	static
+spi.c:28:6:spi_config	16	static
+spi.c:57:7:spi_transmit	40	static
+spi.c:85:7:spi_receive	24	static

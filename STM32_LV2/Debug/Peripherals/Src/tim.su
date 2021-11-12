@@ -1,0 +1,11 @@
+tim.c:16:7:tim_TIM3_config	48	static
+tim.c:52:6:tim_TIM4_OC_GPIO_config	32	static
+tim.c:67:7:tim_TIM4_OC_config	48	static
+tim.c:105:6:tim_TIM3_PWM_GPIO_config	32	static
+tim.c:120:7:tim_TIM3_PWM_config	56	static
+tim.c:176:6:tim_PWM_setDutyCycle_CH1	24	static
+tim.c:182:6:tim_PWM_setDutyCycle_CH2	24	static
+tim.c:188:6:tim_PWM_setDutyCycle_CH3	24	static
+tim.c:198:6:tim_PWM_setRGB	16	static
+tim.c:208:6:tim_TIM5_ENCODER_GPIO_config	32	static
+tim.c:223:7:tim_TIM5_ENCODER_config	64	static

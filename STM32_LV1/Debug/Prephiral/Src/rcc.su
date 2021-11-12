@@ -1,0 +1,8 @@
+core_cm4.h:1777:22:__NVIC_ClearPendingIRQ	16	static
+core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+rcc.c:6:6:rcc_HSE_config	16	static
+rcc.c:92:6:rcc_SysTick_config	16	static
+rcc.c:109:6:rcc_msIncSysTick	4	static
+rcc.c:117:10:rcc_msGetSysTick	4	static
+rcc.c:125:6:ms_Delay	24	static
+rcc.c:135:6:SysTick_Handler	8	static
